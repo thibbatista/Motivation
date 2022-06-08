@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+   <View
+       android:id="@+id/container"
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:background="@color/purple"
+
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+
+   <ImageView
+       android:id="@+id/all"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:src="@drawable/ic_inclusive"
+       app:layout_constraintRight_toLeftOf="@id/happy"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginEnd="80dp"
+       android:layout_marginTop="10dp"/>
+
+   <ImageView
+       android:id="@+id/happy"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:src="@drawable/ic_happy"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginTop="10dp"
+       />
+
+   <ImageView
+       android:id="@+id/sunny"
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:src="@drawable/ic__sunny"
+       app:layout_constraintLeft_toRightOf="@id/happy"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginStart="80dp"
+       android:layout_marginTop="10dp"
+       android:contentDescription="TODO" />
+
+
+
+   <TextView
+       android:id="@+id/name"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_marginTop="36dp"
+       android:text="Olá Fulano"
+       android:textColor="@color/black"
+       android:fontFamily="@font/cabin"
+       android:textSize="18sp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/happy" />
+
+
+   <TextView
+       android:id="@+id/phrase"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="36dp"
+       android:fontFamily="@font/cabin"
+       android:textColor="@color/black"
+       android:text="Você não é derrotado quando perde, você é derrotado quando desiste!"
+       android:textSize="18sp"
+       android:padding="10dp"
+       android:textAlignment="center"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       />
+
+   <View
+       android:layout_width="128dp"
+       android:layout_height="3dp"
+      android:background="@color/dark_purple"
+       android:elevation="5dp"
+      app:layout_constraintTop_toBottomOf="@id/phrase"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      android:layout_marginTop="10dp"/>
+
+   <Button
+       android:id="@+id/button_new_phrase"
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_marginBottom="30dp"
+       android:backgroundTint="@color/dark_purple"
+       android:fontFamily="@font/cabin"
+       android:text="@string/nova_frase"
+       android:textColor="@color/white"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
