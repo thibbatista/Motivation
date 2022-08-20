@@ -1,18 +1,18 @@
-# Aplicativo Android - Repositórios GitHub
+# Aplicativo Android - Motivation
 
 ![](foto1.jpg) ![](foto2.jpg) ![](foto3.jpg)
 
-Aplicativo Android para listar repositórios do github
+Aplicativo Android para exibir frases de motivação
 
 ## Funcionalidades
 
-Pesquisa
+Filtro de tipo de frase
 
 ## Primeiros Passos
 
 Siga estas instruções para ter uma cópia do projeto funcionando em seu computador.
 
-> Caso não esteja interessado no desenvolvimento, vá para a página [Releases](https://github.com/thibbatista/Repositorios-GitHub/releases) e baixe o compilado para executar.
+> Caso não esteja interessado no desenvolvimento, vá para a página [Releases]() e baixe o compilado para executar.
 
 ### Pré-requisitos
 
@@ -73,8 +73,10 @@ No Android Studio, clique em Run → Run 'app'
 Use o menu de opções no canto superior esquerdo para navegação:
 
 ```
-Na tela inicial toque pesquisar -> digite o nome do repositório -> toque na lupa
-Uma lista de repositórios será exibida
+Na tela inicial digite seu nome e pressione salvar
+Filtre o tipo de frase
+Pressione nova frase para exibir uma nova frase
+Toda vez que o aplicativo iniciar será exibido uma nova frase
 ```
 
 
@@ -93,16 +95,6 @@ No Android Studio, com o botão direito sobre o projeto, vá em Build → Build 
 * [Android Studio](https://developer.android.com/studio) 
 * [Gradle](https://gradle.org/) 
 * [XML](https://fontawesome.com/) 
-
-## Ferramentas utilizadas
-
-* RecyclerView
-* Retrofit
-* Coroutines
-* ViewModel
-* Koin
-* Glide
-* API GitHub
 
 
 ## Licença
