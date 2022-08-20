@@ -70,7 +70,7 @@ No Android Studio, clique em Run → Run 'app'
 
 #### Utilização
 
-Use o menu de opções no canto superior esquerdo para navegação:
+Use o menu de opções no canto superior para navegação:
 
 ```
 Na tela inicial digite seu nome e pressione salvar
